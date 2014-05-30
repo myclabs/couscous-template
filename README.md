@@ -5,7 +5,7 @@
 To use the template, set it up in your `couscous.yml` configuration file:
 
 ```yaml
-templateUrl:
+templateUrl: https://github.com/myclabs/couscous-template
 ```
 
 ## Configuration
