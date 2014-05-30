@@ -14,6 +14,9 @@ Here are all the variables you can set in your `couscous.yml`:
 
 ```yaml
 template:
+    # Base URL of the published website
+    baseUrl: http://mnapoli.github.io/Couscous
+
     github:
         user: hello
         repo: my-project
