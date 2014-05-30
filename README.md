@@ -10,7 +10,7 @@ templateUrl: https://github.com/myclabs/couscous-template
 
 ## Configuration
 
-Here are all the variables you can set:
+Here are all the variables you can set in your `couscous.yml`:
 
 ```yaml
 template:
