@@ -8,6 +8,11 @@ To use the template, set it up in your `couscous.yml` configuration file:
 templateUrl: https://github.com/myclabs/couscous-template
 ```
 
+This template is used by:
+
+- [MyCLabs\ACL](http://myclabs.github.io/ACL/)
+- [MyCLabs\Work](http://myclabs.github.io/Work/)
+
 ## Configuration
 
 Here are all the variables you can set in your `couscous.yml`:
