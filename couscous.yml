@@ -1,25 +1,12 @@
-# MyCLabs template for Couscous
+directory: .
 
-## Usage
-
-To use the template, set it up in your `couscous.yml` configuration file:
-
-```yaml
-templateUrl:
-```
-
-## Configuration
-
-Here are all the variables you can set:
-
-```yaml
 template:
     github:
-        user: hello
-        repo: my-project
+        user: myclabs
+        repo: couscous-template
 
-    title: My project
-    subTitle: This is a great project.
+    title: MyCLabs Couscous template
+    subTitle: The website template for MyCLabs projects.
 
     # The left menu bar
     menu:
@@ -38,4 +25,3 @@ template:
             other:
                 name: Other topics
                 items:
-```

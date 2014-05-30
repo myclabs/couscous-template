@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ template.title }}</title>
+        <title>{{ title }}</title>
 
         <link rel="stylesheet" href="{{ baseUrl }}/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ baseUrl }}/css/highlight.tomorrow-night.css">
@@ -15,12 +15,12 @@
     <body>
         <header class="navbar navbar-default navbar-fixed-top">
             <a class="navbar-brand" href="{{ baseUrl }}/">
-                {{ template.title }}
+                {{ title }}
                 <small class="hidden-xs hidden-sm">
-                    {{ template.subTitle }}
+                    {{ subTitle }}
                 </small>
             </a>
-            <a href="https://github.com/{{ template.github.user }}/{{ template.github.repo }}">
+            <a href="https://github.com/{{ github.user }}/{{ github.repo }}">
                 <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
             </a>
         </header>
@@ -31,7 +31,7 @@
 
                     <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
 
-                        {% for section in template.sections %}
+                        {% for section in menu.sections %}
                             <p class="text-muted">
                                 {{ section.name }}
                             </p>
@@ -48,7 +48,7 @@
                         {% endfor %}
 
                         <p>
-                            <iframe class="github-star" src="http://ghbtns.com/github-btn.html?user={{ template.github.user }}&repo={{ template.github.repo }}&type=watch&count=true&size=large"
+                            <iframe class="github-star" src="http://ghbtns.com/github-btn.html?user={{ github.user }}&repo={{ github.repo }}&type=watch&count=true&size=large"
                                 allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
                         </p>
 
