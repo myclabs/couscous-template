@@ -47,3 +47,16 @@ template:
                 name: Other topics
                 items:
 ```
+
+## Menu
+
+To set the current menu item (i.e. highlighted menu item), set the `menu.current`
+key in the Markdown files:
+
+```markdown
+---
+menu.current: home
+---
+
+# Welcome
+```
