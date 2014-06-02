@@ -48,6 +48,14 @@ template:
                 items:
 ```
 
+Note that the menu items can also contain HTML:
+
+```yaml
+home:
+    text: <i class="fa fa-github"></i> Home page
+    relativeUrl: doc/faq.html
+```
+
 ## Menu
 
 To set the current menu item (i.e. highlighted menu item), set the `menu.current`
